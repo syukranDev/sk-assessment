@@ -68,12 +68,6 @@ var questionTwo = (arg) => {
         console.log('Median of the array input is : ' + result);
     };
     findMedian(arg)
-
-    
-      
-
-    
-
 }
 
 
