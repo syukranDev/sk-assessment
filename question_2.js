@@ -77,6 +77,6 @@ questionTwo(arr)
 
 
 // Expected solution:
-    // Mean of the array input is :5.127272727272727
-    // Mode of the array input is :4
+    // Mean of the array input is : 5.127272727272727
+    // Mode of the array input is : 4
     // Median of the array input is :5
