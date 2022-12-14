@@ -41,13 +41,13 @@ var questionTwo = (arg) => {
       
         // If more than one number has the same maximum frequency, then there is no mode
         if (mode.length === numbers.length) {
-          return null;
+            let result = 'NULL (@ No Mode)';
+            console.log('Mode of the array input is : ' + result);
+        } else {
+            // Return the mode(s) if there is mode.
+            let result = mode;
+            console.log('Mode of the array input is : ' + result);
         }
-      
-        // Return the mode(s)
-        let result = mode;
-        console.log('Mode of the array input is : ' + result);
-
     }
     findMode(arg)
     
