@@ -2,10 +2,11 @@
 -- Question 3-1 : Database Query
 -- Write an SQL statement that returns the users’ id, name and total sale amount for users who have total sales above 1000.
 
-SELECT S.user_id, U.name, S.sale_amount
+SELECT  U.name, SUM(S.sale_amount) AS total_sales_amount
 FROM users U
 INNER JOIN sales S ON U.id = S.user_id
-WHERE sale_amount >= 1000
+GROUP BY U.name
+HAVING SUM(S.sale_amount) >= 1000
 
 
 
